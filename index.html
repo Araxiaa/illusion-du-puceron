@@ -6,14 +6,20 @@
   <title>Illusion du Puceron — Guérisseur du clan de l’Ombre</title>
   <meta name="description" content="Illusion du Puceron, guérisseur du clan de l’Ombre : personnalité, histoire, relations et tanière d’un félin dans la brume.">
   <meta name="theme-color" content="#0f1114">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Illusion du Puceron — Guérisseur du clan de l’Ombre">
+  <meta property="og:description" content="Un félin gris dans la brume, des fleurs plein le poil, et une rancœur qu’il porte comme une armure.">
+  <meta property="og:image" content="img/portrait.webp">
+  <meta name="twitter:card" content="summary">
   <link rel="icon" type="image/webp" href="img/portrait.webp">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
-  <script type="module" crossorigin src="./assets/index-MMCjHhgS.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-B5xeGWWD.css">
+  <script type="module" crossorigin src="./assets/index-BlskcD-J.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-D_BANGk0.css">
 </head>
 <body>
+  <a class="skip" href="#app">Aller au contenu</a>
   <div class="mist" aria-hidden="true"><i></i><i></i><i></i></div>
   <div class="rain" aria-hidden="true"></div>
   <canvas id="petals" aria-hidden="true"></canvas>
@@ -22,16 +28,18 @@
 
   <header class="site-head">
     <a class="brand" href="#/"><span class="brand-mark" aria-hidden="true">✿</span><span id="brand-name">Illusion du Puceron</span></a>
-    <button id="burger" class="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+    <button id="burger" class="burger" aria-label="Menu" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
     <nav aria-label="Navigation principale"><ul id="nav" class="nav"></ul></nav>
   </header>
 
-  <main id="app"><p class="empty">Le brouillard se lève…</p></main>
+  <main id="app" tabindex="-1"><p class="empty">Le brouillard se lève…</p></main>
 
   <footer class="site-foot">
     <p>Illusion du Puceron · Clan de l’Ombre</p>
     <a href="#/dashboard">Espace joueuse</a>
   </footer>
+
+  <button id="totop" class="totop" aria-label="Revenir en haut">↑</button>
 
 </body>
 </html>
